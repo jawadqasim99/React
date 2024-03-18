@@ -3,7 +3,7 @@ import './ProductTab.css'
 
 
 export default function ProductTab(){
-    let description=["Best" , "Good" , "Bad" , "Normal"];
+    
     return(
         <div id="tab">
        <Product tittle="Apple" idx={0}/>

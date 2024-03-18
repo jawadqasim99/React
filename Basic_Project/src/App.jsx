@@ -3,7 +3,8 @@ import './App.css'
 
 // // import Product from './Product.jsx';
 // // import Msgbox from './Msg.jsx';
-import ProductTab from './amzoon/ProductTab.jsx';
+// import ProductTab from './amzoon/ProductTab.jsx';
+import Button from './assets/Button.jsx';
 
 function App() {
   // let feature=["Apple" , "Banana" , "Orange"];
@@ -16,9 +17,10 @@ function App() {
     <Product tittle="Mobile" des={90000}  obj={obj}/>
     <Product tittle="Bike" des={1250000}  obj={obj}/> */}
     {/* <Msgbox title="jawad" colorMsg="green"/> */}
-    <h1>Block Boster Product || Click more product </h1>
-    <ProductTab/>
+    <h1>Block Boster Product || Click more product</h1>
+    {/* <ProductTab/> */}
     {/* <Price/> */}
+    <Button/>
     </>
    
   
