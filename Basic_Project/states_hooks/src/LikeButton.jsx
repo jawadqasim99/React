@@ -4,7 +4,9 @@ import { useCallback } from "react";
 export default function LikeButton(){
     const [like,isLike]=useState(false);
     let islikebtn=()=>{
-        isLike(!like);
+        isLike((curr)=>{
+          return  !curr;
+        });
 
     }
     let colorHeart={color:"red"};
