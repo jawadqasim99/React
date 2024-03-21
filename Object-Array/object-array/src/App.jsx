@@ -5,13 +5,19 @@ import './App.css'
 import Object from './Object';
 import Todo from './TodoList/Todo';
 import Form from './Form/Form';
+import Api from './ApiJoke/Api';
 
 function App() {
+    let url = "https://official-joke-api.appspot.com/random_joke";
+    let newJokesFunc = ()=>{
+        
+    }
  return(
   <>
   {/* <Object/> */}
   {/* <Todo/> */}
-  <Form/>
+  {/* <Form/> */}
+  <Api/>
   </>
  );
 
