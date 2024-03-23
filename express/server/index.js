@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config();
 const cors = require('cors');
 const app = express();
 const {mongoose} = require('mongoose');
-const port = 8000;
+const port = 8080;
 
 // DataBase Code
 mongoose.connect(process.env.MONGO_URL)
